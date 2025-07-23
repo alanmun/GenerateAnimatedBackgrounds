@@ -1,5 +1,7 @@
 # GenerateAnimatedBackgrounds
-Quickly create animated backgrounds for anything from videos
+Quickly create animated backgrounds for anything from videos.
+
+Supports multiple quality levels, choosing a start time from your video to start the animation at (in case the animation only appears in a specific point in the video), a perfect loop feature that automatically detects the right duration for your animated background so that it loops perfectly, and a boomerang mode which reverses the animation (thus creating a cheaper perfect loop. Not as good as a true perfect loop, but it is ideal for when you can't find a perfect loop in your source video)
 
 ## About
 
@@ -55,8 +57,16 @@ You must have:
 
 Assuming you have the aforementioned dependencies, you can
 
-`git clone 
+1. `git clone https://github.com/alanmun/GenerateAnimatedBackgrounds.git`
+
+to grab the project into a local folder.
+
+Then,
+
+2. `pipenv install` to grab all Python packages needed and install in an isolated environment.
+
+> If you don't have pipenv, do `pip install pipenv` first.
 
 ## Usage
 
-
+`python GenerateVSCodeBackground.py` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
