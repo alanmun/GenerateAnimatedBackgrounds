@@ -73,6 +73,6 @@ Then,
 
 ## Usage
 
-`pipenv run python GenerateVSCodeBackground.py` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
+`pipenv run python GenerateVSCodeBackground.py --help` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
 
 > If you are already in the virtual environment via `pipenv shell`, you just need to run `python GenerateVSCodeBackground.py`
