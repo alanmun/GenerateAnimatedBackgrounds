@@ -76,3 +76,12 @@ Then,
 `pipenv run python GenerateVSCodeBackground.py --help` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
 
 > If you are already in the virtual environment via `pipenv shell`, you just need to run `python GenerateVSCodeBackground.py`
+
+## Performance
+
+This project was intended to be used with VS Code to have backgrounds in your IDE. As such, it is limited to animated formats that work within the confines of css only. Because of this, my options were basically
+- gif (old as fuck)
+- apng (seems to be almost as good as webp)
+- webp (more modern)
+
+Even with webp, file sizes are pretty massive, I've taken care to cut them down as much as I can. For example right now I have one background that takes up 300MB on my GPU and contributes to ~9% GPU utilization. This is fine, but if you need to drive all performance out of your GPU (like you are playing a hard to run game or doing AI workloads on the side), you may find these animated backgrounds to be troublesome to run (especially at immaculate quality setting).
