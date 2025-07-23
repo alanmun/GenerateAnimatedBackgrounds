@@ -1,7 +1,11 @@
 # GenerateAnimatedBackgrounds
 Quickly create animated backgrounds for anything from videos.
 
-Supports multiple quality levels, choosing a start time from your video to start the animation at (in case the animation only appears in a specific point in the video), a perfect loop feature that automatically detects the right duration for your animated background so that it loops perfectly, and a boomerang mode which reverses the animation (thus creating a cheaper perfect loop. Not as good as a true perfect loop, but it is ideal for when you can't find a perfect loop in your source video)
+Supports:
+- multiple quality levels
+- choosing a start time from your video to start the animation at (in case the animation only appears in a specific point in the video)
+- a perfect loop feature that automatically detects the right duration for your animated background so that it loops perfectly
+- a boomerang mode which reverses the animation (thus creating a cheaper perfect loop. Not as good as a true perfect loop, but it is ideal for when you can't find a perfect loop in your source video)
 
 ## About
 
@@ -69,4 +73,6 @@ Then,
 
 ## Usage
 
-`python GenerateVSCodeBackground.py` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
+`pipenv run python GenerateVSCodeBackground.py` will dump all the commandline args and options, as well as their defaults and descriptions on how each option works.
+
+> If you are already in the virtual environment via `pipenv shell`, you just need to run `python GenerateVSCodeBackground.py`
