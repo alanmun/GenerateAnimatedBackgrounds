@@ -1,5 +1,5 @@
 # GenerateAnimatedBackgrounds
-Quickly create animated backgrounds for anything from videos.
+Quickly create animated backgrounds (WEBP file format) for anything from videos. Since they are .WEBP, you can insert these generated backgrounds in situations where you can only write/control CSS (Ideal for VS Code backgrounds, low fuss Discord backgrounds, etc).
 
 Supports:
 - multiple quality levels
