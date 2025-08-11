@@ -1,4 +1,5 @@
 # Media
 *.mp4
 *.webp
+!bloc-high-100.webp
 *.apng
