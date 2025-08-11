@@ -49,6 +49,9 @@ But since this project uses yt-dlp to grab videos, you could use this tool to ma
 
 And because this solution uses ffmpeg and Python, it is cross-platform and should work on Windows, Linux, and MacOS. Sorry FreeBSD users I don't know if you have ffmpeg or not
 
+## Example
+
+See `bloc-high-100.webp` as an example of what this script can make with default `high` quality. It is 32MB so you will likely have to download it to preview.
 
 ## Dependencies (Required installs before you can use)
 
